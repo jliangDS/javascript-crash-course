@@ -23,3 +23,34 @@ header h1 {
 header p {
     font-size: 20px;
 }
+
+.pads {
+    background: lightblue;
+    width: 100%;
+    display: flex;
+}
+
+.pads > div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1{
+    background: #60d394;
+}
+.pad2{
+    background: #de6060;
+}
+.pad3{
+    background: #c060d3;
+}
+.pad4{
+    background: #d3d160;
+}
+.pad5{
+    background: #6860d3;
+}
+.pad6{
+    background: aqua;
+}

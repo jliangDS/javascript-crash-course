@@ -1,3 +1,13 @@
 window.addEventListener('load', () => {
-    const sounds = 
-})
+    const sounds = document.querySelectorAll(".sound");
+    const pads = document.querySelectorAll(".pads div");
+    
+    //Sound
+    pads.forEach((pad, index) => {
+        pad.addEventListener("click", function(){
+            sounds[index].currentTime = 0;
+            sounds[index].play();
+        });
+    });
+});
+
